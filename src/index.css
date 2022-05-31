@@ -9,9 +9,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @apply bg-[#f8f8f8];
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@layer base {
+  h1 {
+    @apply text-[40px] leading-[1] pb-8;
+  }
+
+  h2 {
+    @apply text-xl font-bold text-[30px] pb-6;
+  }
+
+  h3 {
+    @apply font-bold text-[20px] pb-4;
+  }
+
+  h4 {
+    @apply font-bold text-[18px] pb-2;
+  }
+
+  h5 {
+    @apply font-bold text-[16px] tracking-widest;
+  }
+
+  p {
+    @apply pb-6 text-gray-500;
+  }
+
+  section {
+    @apply py-14;
+  }
+}
+
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }

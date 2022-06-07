@@ -59,5 +59,9 @@ img {
   @apply bg-blue-500 text-white;
 }
 a {
-  @apply border px-4 py-3 rounded;
+  @apply  py-3 rounded;
+}
+.tab-button a{
+  @apply px-4 border;
+  
 }

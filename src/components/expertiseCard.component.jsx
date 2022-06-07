@@ -1,9 +1,9 @@
-const ExpertiseCard = ({ data }) => {
+const ExpertiseCard = ({ expertiseList }) => {
   
   return (
     <>
-      {data.map(({ title, desc, imgPath, cardPathTo }) => (
-        <div key={data.title} className="bg-white drop-shadow-sm rounded p-6">
+      {expertiseList.map(({ title, desc, imgPath, cardPathTo }) => (
+        <div key={title} className="bg-white drop-shadow-sm rounded p-6">
           <div className="w-20">
             <img src={(imgPath).default} alt="" />
           </div>

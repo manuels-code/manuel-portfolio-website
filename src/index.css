@@ -54,3 +54,10 @@ img {
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
+.active {
+  @apply bg-blue-500 text-white;
+}
+a {
+  @apply border px-4 py-3 rounded;
+}

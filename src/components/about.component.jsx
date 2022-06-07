@@ -2,9 +2,10 @@ import AboutTab from "./aboutTab.component";
 import TabButton from "./common/buttons/tabButton.component";
 import Container from "./common/containers/container.component";
 import ExperienceTab from "./experienceTab.component";
-import TabSkills from "./skillsTab.component";
+import SkillsTab from "./skillsTab.component";
+import { NavLink, Outlet, Route, Routes } from "react-router-dom";
 
-const experienceTabData = [
+const experienceList = [
   {
     title: "Front End Web Developer",
     startingDate: "2014",
@@ -14,7 +15,7 @@ const experienceTabData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maiores, fugit quaerat veritatis nobis itaque vero illum quibusdam soluta optio?",
   },
   {
-    title: "Front End Web Developer",
+    title: "Back End Web Developer",
     startingDate: "2014",
     endingDate: "2015",
     company: "Queensborough Community Collage",
@@ -23,7 +24,7 @@ const experienceTabData = [
   },
 ];
 
-const progressBarData = [
+const skillsList = [
   {
     title: "HTML / CSS",
     percentage: "95%",
@@ -58,17 +59,13 @@ const About = () => {
         <div className="">
           <div className="w-full h-[356px] m-auto bg-center bg-top bg-[length:190%] bg-[url('https://preview.colorlib.com/theme/knuford/images/xabout.jpg.pagespeed.ic.ROjPXqaKV7.webp')]"></div>
 
-          <div className="flex gap-2 py-10">
-            <TabButton active>ABOUT ME</TabButton>
-            <TabButton>SKILL</TabButton>
-            <TabButton>EXPERIENCE</TabButton>
+          <div className="flex gap-4 py-10">
+            <NavLink to="">About me</NavLink>
+            <NavLink to="/tab-skills">Skills</NavLink>
+            <NavLink to="/tab-experience">Experience</NavLink>
           </div>
 
-          <div className="">
-            <AboutTab data={aboutTabData} />
-            {/* <TabSkills data={progressBarData}/> */}
-            {/* <ExperienceTab data={experienceTabData}/> */}
-          </div>
+          <Outlet />
         </div>
       </Container>
     </section>

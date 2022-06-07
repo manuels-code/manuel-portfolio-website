@@ -2,7 +2,7 @@ import Container from "./common/containers/container.component";
 import ExpertiseCard from "./expertiseCard.component";
 
 const Expertise = () => {
-  const expertiseCarsData = [
+  const expertiseList = [
     {
       title: "Web Design",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
@@ -27,7 +27,7 @@ const Expertise = () => {
       <Container>
         <h2 className="text-center">My Expertise</h2>
         <div className="flex flex-col gap-2">
-          <ExpertiseCard data={expertiseCarsData} />
+          <ExpertiseCard expertiseList={expertiseList} />
         </div>
       </Container>
     </section>

@@ -1,6 +1,6 @@
 import ProgressBar from "./progressBar.component";
 
-const TabSkills = ({ data }) => {
+const SkillsTab = ({ skillsList }) => {
   return (
     <div>
       <h2 className="font-bold text-[30px] pb-6">Skills</h2>
@@ -11,11 +11,9 @@ const TabSkills = ({ data }) => {
         similique.
       </p>
 
-      {data.map((data) => (
-        <ProgressBar title={data.title} percentage={data.percentage} />
-      ))}
+      {skillsList.map(({ title, percentage }) => <ProgressBar key={title} title={title} percentage={percentage} />)}
     </div>
   );
 };
 
-export default TabSkills;
+export default SkillsTab;

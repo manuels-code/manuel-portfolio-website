@@ -1,10 +1,10 @@
-const AboutTab = ({ data }) => {
+const AboutTab = ({ aboutTabData }) => {
   return (
     <div>
-      <h2>{data.title}</h2>
-      <p>{data.titleDesc}</p>
-      <h3>{data.subtitle}</h3>
-      <p>{data.subtitleDesc}</p>
+      <h2>{aboutTabData.title}</h2>
+      <p>{aboutTabData.titleDesc}</p>
+      <h3>{aboutTabData.subtitle}</h3>
+      <p>{aboutTabData.subtitleDesc}</p>
     </div>
   );
 };

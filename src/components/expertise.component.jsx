@@ -5,21 +5,18 @@ const Expertise = () => {
   const expertiseList = [
     {
       title: "Web Design",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      desc: "I desing web components believing that software and web application should be elegant, interactive and accessible, but also they can be very fun. I use Adobe Illustrator, Adobe Xd, or Figma to implement my desings.",
       imgPath: require("../assets/svg/design-icon.svg"),
-      cardPathTo: "/",
     },
     {
       title: "Front End Development",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      desc: "I can translate complex UI designs to code using technologies from the web standards HTML, CSS and JavaScript to advance preprocesors, libraries and frameworks such as SASS, Tailwind, React.js or Vue.js for  web applications.",
       imgPath: require("../assets/svg/design-icon.svg"),
-      cardPathTo: "/",
     },
     {
       title: "Back End Development",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      desc: "Basic of Back-End knowledge working with Express.js, Node.js, MongoDB and Firebase",
       imgPath: require("../assets/svg/design-icon.svg"),
-      cardPathTo: "/",
     },
   ];
   return (

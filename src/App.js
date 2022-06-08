@@ -10,49 +10,45 @@ import AboutTab from "./components/aboutTab.component";
 // Expertices Data
 const experienceList = [
   {
-    title: "Front End Web Developer",
-    startingDate: "2014",
-    endingDate: "2015",
-    company: "Queensborough Community Collage",
-    aboutThisJob:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maiores, fugit quaerat veritatis nobis itaque vero illum quibusdam soluta optio?",
-  },
-  {
     title: "Back End Web Developer",
     startingDate: "2014",
     endingDate: "2015",
+    company: "Freelancer",
+    aboutThisJob:
+      "Designing responsive and dynamic website for small bussiness and friends.",
+  },
+  {
+    title: "Front End Web Developer",
+    startingDate: "2017",
+    endingDate: "2019",
     company: "Queensborough Community Collage",
     aboutThisJob:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis maiores, fugit quaerat veritatis nobis itaque vero illum quibusdam soluta optio?",
+      "Designing and coding reusable components, fixing existent bugs on legacy code, designing icon sets ",
   },
 ];
 
 const skillsList = [
   {
-    title: "HTML / CSS",
-    percentage: "95%",
+    title: "HTML / CSS / Sass / TailwindCSS",
+    percentage: "30%",
   },
   {
-    title: "JavaScript",
-    percentage: "80%",
+    title: "JavaScript / React.js / Vue.js",
+    percentage: "60%",
   },
   {
-    title: "React.js",
-    percentage: "50%",
-  },
-  {
-    title: "Vue.js",
-    percentage: "50%",
+    title: "Express.js / MongoDB.js / Node.js",
+    percentage: "10%",
   },
 ];
 
 const aboutTabData = {
   title: "My Story",
   titleDesc:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas obcaecati dolores perferendis provident nobis aperiam.",
+    "I am from the Dominican Republic where I've live half of my life. I live now in the United States for about 15 years. In 2017 I joined the Queensborough Community College's marketing team, where my life as a web developer started to take shape and meaning. Maybe I could make it along, but I am glad I didn't. I am greaful to every member of that team because Thanks to these amazing people I have discover my passion not only for web development but my passion to create with others as a team.",
   subtitle: "I do Web Development since 2017",
   subtitleDesc:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas obcaecati dolores perferendis provident nobis aperiam.",
+    "In my time as a developer, I’ve done work both on premise and remote for colleges and companies to create web solutions for their businesses. I craft responsive, accessible sites built using HTML, CSS, SASS, and JavaScript  that are fast, friendly, and easy to use. I am growing my full-stack developer skillset with React, Next.js Vue.js, Nuxt.js, Express, Node.js and MondoDB in addition to my extensive front-end developer experience.",
 };
 
 function App() {

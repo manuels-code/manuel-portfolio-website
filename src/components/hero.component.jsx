@@ -12,20 +12,21 @@ const Hero = () => {
   return (
     <section className="h-screen bg-blue-400 text-white">
       <Container style={heroStyles}>
+
         <h1>
           <span className="text-lg block">Hello there! </span>I am Manuel Nunez
           <span className="block"> Web Developer</span>
         </h1>
+
         <p className="text-white">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur
-          necessitatibus veritatis possimus iste error itaque praesentium velit
-          debitis blanditiis maxime?
+          I am Web Developer with 5 years of experience working on responsive and dynamic web applications. I take pride in my work by keeping all my websites responsive, dynamic, cross-browser compatible and ADA compliance.
         </p>
 
         <div className="flex gap-1 pb-4 flex flex-col">
           <Button>Hire Me</Button>
-          <Button color='white'>View Portfolio</Button>
+          <Button color="white">View Portfolio</Button>
         </div>
+
       </Container>
     </section>
   );

@@ -5,12 +5,9 @@ const SkillsTab = ({ skillsList }) => {
     <div>
       <h2 className="font-bold text-[30px] pb-6">Skills</h2>
       <p className="pb-6">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt accusamus
-        eaque inventore saepe aperiam quidem omnis recusandae harum, iusto
-        pariatur consectetur. Qui nobis ipsa odit nam vel doloribus iste
-        similique.
+      I am always learning new skills and at the same time I keep my current skills up to day with the new updates. At this time I am working. 
       </p>
-
+      <h3>Technologies averaje per project</h3>
       {skillsList.map(({ title, percentage }) => <ProgressBar key={title} title={title} percentage={percentage} />)}
     </div>
   );

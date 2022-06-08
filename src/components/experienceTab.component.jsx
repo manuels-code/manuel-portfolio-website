@@ -5,7 +5,7 @@ const ExperienceTab = ({ experienceList }) => {
         ({ title, startingDate, endingDate, aboutThisJob, company }) => (
           <div key={title}>
             <h3 className="font-bold text-[20px] pb-1">{title}</h3>
-            <p className="pb-6">
+            <p className="pb-1">
               <span className="text-blue-500 font-bold text-xs">
                 {startingDate} - {endingDate}
               </span>{" "}

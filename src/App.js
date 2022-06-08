@@ -10,17 +10,15 @@ import AboutTab from "./components/aboutTab.component";
 // Expertices Data
 const experienceList = [
   {
-    title: "Back End Web Developer",
-    startingDate: "2014",
-    endingDate: "2015",
+    title: "Freelancer",
+    period: "Current",
     company: "Freelancer",
     aboutThisJob:
       "Designing responsive and dynamic website for small bussiness and friends.",
   },
   {
     title: "Front End Web Developer",
-    startingDate: "2017",
-    endingDate: "2019",
+    period: "2017 -2019",
     company: "Queensborough Community Collage",
     aboutThisJob:
       "Designing and coding reusable components, fixing existent bugs on legacy code, designing icon sets ",
@@ -45,10 +43,10 @@ const skillsList = [
 const aboutTabData = {
   title: "My Story",
   titleDesc:
-    "I am from the Dominican Republic where I've live half of my life. I live now in the United States for about 15 years. In 2017 I joined the Queensborough Community College's marketing team, where my life as a web developer started to take shape and meaning. Maybe I could make it along, but I am glad I didn't. I am greaful to every member of that team because Thanks to these amazing people I have discover my passion not only for web development but my passion to create with others as a team.",
+    "I am from NY where I've live half of my life. I relocated to Dallas TX for about 2 years now. In 2017 I joined the Queensborough Community College's marketing team, where my life as a web developer started to take shape and meaning. I am greatful to every member from the team because thanks to these amazing people I have discovered my passion, not only for web development, but my passion on being a team player.",
   subtitle: "I do Web Development since 2017",
   subtitleDesc:
-    "In my time as a developer, I’ve done work both on premise and remote for colleges and companies to create web solutions for their businesses. I craft responsive, accessible sites built using HTML, CSS, SASS, and JavaScript  that are fast, friendly, and easy to use. I am growing my full-stack developer skillset with React, Next.js Vue.js, Nuxt.js, Express, Node.js and MondoDB in addition to my extensive front-end developer experience.",
+    "In my time as a developer, I’ve work both on premise and remote for colleges and companies to create web solutions for their businesses. I craft responsive, accessible sites built using HTML, CSS, SASS, and JavaScript  that are fast, friendly, and easy to use. I am growing my full-stack developer skillset with React, Next.js Vue.js, Nuxt.js, Express, Node.js and MondoDB in addition to my extensive front-end developer experience.",
 };
 
 function App() {

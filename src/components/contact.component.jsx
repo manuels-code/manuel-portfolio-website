@@ -8,9 +8,9 @@ const Contact = () => {
     <section>
       <Container>
         <h2>Contact Me</h2>
+          <h3>Am I Good Fit for Your Team?</h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque,
-          ipsum.
+          Let's get in touch. I am currently looking for a team  that cares about building quality products.
         </p>
         <Address />
         <ContactForm />

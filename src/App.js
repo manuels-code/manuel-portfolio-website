@@ -40,25 +40,13 @@ const skillsList = [
   },
 ];
 
-const aboutTabData = {
-  title: "My Story",
-  titleDesc:
-    "I am from NY where I've live half of my life. I relocated to Dallas TX for about 2 years now. In 2017 I joined the Queensborough Community College's marketing team, where my life as a web developer started to take shape and meaning. I am greatful to every member from the team because thanks to these amazing people I have discovered my passion, not only for web development, but my passion on being a team player.",
-  subtitle: "I do Web Development since 2017",
-  subtitleDesc:
-    "In my time as a developer, I’ve work both on premise and remote for colleges and companies to create web solutions for their businesses. I craft responsive, accessible sites built using HTML, CSS, SASS, and JavaScript  that are fast, friendly, and easy to use. I am growing my full-stack developer skillset with React, Next.js Vue.js, Nuxt.js, Express, Node.js and MondoDB in addition to my extensive front-end developer experience.",
-};
-
 function App() {
   return (
     <div className="App">
       <Header />
       <Routes>
         <Route path="/" element={<Home />}>
-          <Route
-            path=""
-            element={<AboutTab aboutTabData={aboutTabData} />}
-          ></Route>
+          <Route path="" element={<AboutTab />}></Route>
           <Route
             path="/tab-skills"
             element={<SkillsTab skillsList={skillsList} />}

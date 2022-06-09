@@ -15,6 +15,7 @@ const About = () => {
           </div>
           
           <Outlet />
+          
         </div>
       </Container>
     </section>
